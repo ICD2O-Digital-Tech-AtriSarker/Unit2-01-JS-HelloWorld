@@ -1,4 +1,30 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+/* 
+ This file contains the CSS for index.html
 */
+
+body {
+  background: linear-gradient(to right, #45B649, #DCE35B);
+  text-align: center;
+}
+
+h1 {
+  background-color: rgb(154, 40, 40);
+  color: hsl(0, 0%, 100%);
+  padding: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgb(150, 150, 150);
+}
+
+div {
+  font-size: 48px;
+}
+
+button {
+  border: 1px solid #ff0000;
+  border-radius: 8px;
+  font-size: 36px;
+}
+
+button:hover {
+  background-color: grey;
+}
